@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-edu</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="icon" href="./images/E-edu.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="edu">
+        <div class="navbar">
+            <div class="container">
+                <div class="navbar__logo">
+                    <img src="./images/E-edu.png" alt="#">
+                </div>
+                <div class="menu-btn"></div>
+                <div class="navigatsions">
+                    <a href="#home" class="navigatsion active">Markaz haqida</a>
+                    <a href="#alls" class="navigatsion ">Kurslar</a>
+                    <a href="#teacher" class="navigatsion">O'qituvchilar</a>
+                    <a href="#resualt" class="navigatsion">Natijalar</a>
+                    <a href="#contact" class="navigatsion">Aloqa</a>
+                </div>
+            </div>
+        </div>
+        <section id="home">
+            <div class="header">
+                <header>
+                    <div class="container">
+                        <div class="header__title">
+                            <p>
+                                Masofaviy ta`lim
+                            </p>
+                        </div>
+                        <div class="header__subtitle">
+                            <p class="p1">
+                                Masofaviy o'quv kurslar orqali siz, eng so`ngi <br> darsliklarni oson, qulay va mukammal <br> o'rganishingiz mumkin.
+                            </p>
+                            <p class="p2">
+                                Oson, qulay va mukammal
+                            </p>
+                        </div>
+                        <button class="button__light">
+                            <a href="https://t.me/muhammadjon_portfolio">Hoziroq boshlang</a>
+                        </button>
+                    </div>
+                    <div class="resualt__header">
+                        <div class="resualt__header-item">
+                            <div class="header-icon">
+                                <img src="./images/001-elearning.png" alt="#">
+                            </div>
+                            <div class="header__number">
+                                2200 +
+                                <p>Video kurslar</p>
+                            </div>
+                        </div>
+                        <div class="resualt__header-item">
+                            <div class="header-icon">
+                                <img src="./images/004-teacher.png" alt="#">
+                            </div>
+                            <div class="header__number">
+                                100 +
+                                <p>O'qituvchilar</p>
+                            </div>
+                        </div>
+                        <div class="resualt__header-item">
+                            <div class="header-icon">
+                                <img src="./images/003-online-test.png" alt="#">
+                            </div>
+                            <div class="header__number">
+                                5450+
+                                <p>Sinov testlar</p>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </section>
+        <div class="courses">
+            <section id="alls">
+                <div class="container">
+                    <div class="item__title">
+                        Bizning Kurslar
+                    </div>
+
+                    <div class="courses__items" id="alls">
+                        <a href="#alls" id="all" class="courses__item active">
+                        Barcha kurslar
+                    </a>
+                        <a href="#exact" class="courses__item">
+                        Aniq fanlar
+                    </a>
+                        <a href="#natural" class="courses__item">
+                        Tabiiy fanlar
+                    </a>
+                        <a href="#gumanitar" class="courses__item">
+                        Gumanitar fanlar
+                    </a>
+                    </div>
+
+                    <div id="exact" class="exact">
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/teacher1.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/Ellipse 20.png" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Abdulloh Umarov</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Mental arifmetika o'qituvchisi</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Mental arifmetika va tezkor hisoblash kursi
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>25 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 50</p>
+                            </div>
+                        </div>
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/teacher.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/ttt.jpg" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Alexsandra Aliyeva</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Matematika o'qituvchisi</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Matematikaning boshlang`ich asoslari
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>40 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 90</p>
+                            </div>
+                        </div>
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/it.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/kk.jpg" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Mustaqimov Muhammad</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Dasturlash</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Algoritmik tillar va dasturlash asoslari
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>50 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 200</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="natural" class="exact">
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/teacher2.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/Ellipse 18.png" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Sevara Hasanova</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Kimyo o'qituvchisi</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Organik kimyoga kirish va uning xossalari
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>25 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 65</p>
+                            </div>
+                        </div>
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/Rectangle 33.png" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/Ellipse 19.png" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Robiya Kamolova</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Fizika o'qituvchisi</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Fizikaning boshlang`ich asoslari
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>35 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 70</p>
+                            </div>
+                        </div>
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/nn.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/Ellipse 21.png" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>G`ayrat Davlatov </p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Biologiya</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Botanika , Zoologiya va Biologiya asoslari
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>45 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 100</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="gumanitar" class="exact">
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/Rectangle 49.png" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/13.jpg" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Shoira Saidova</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Ona tili o'qituvchisi</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Ona tili va Adabiyot <br> <br>
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>30 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 60</p>
+                            </div>
+                        </div>
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/notiq.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/oo.jpg" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Mahmud Hamidov</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Notiq</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    Notiqlik va to'g'ri gapirish qoidalari
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>35 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 70</p>
+                            </div>
+                        </div>
+                        <div class="cours__card">
+                            <div class="cours__card-img">
+                                <img src="./images/histoty.jpg" alt="#">
+                            </div>
+                            <div class="card__info">
+                                <div class="teacher__img">
+                                    <img src="./images/ii.jpg" alt="#">
+                                </div>
+                                <div class="div">
+                                    <div class="teacher__title">
+                                        <p>Temir Ergashev</p>
+                                    </div>
+                                    <div class="teacher__subtitle">
+                                        <p>Tarix</p>
+                                    </div>
+                                </div>
+                                <div class="card__name">
+                                    O'zbekiston tarixi <br><br>
+                                </div>
+                            </div>
+                            <div class="card__lesson">
+                                <img src="./images/Frame.png" alt="#" class="lesson__icon">
+                                <p>30 ta dars</p>
+                            </div>
+                            <div class="cours__money">
+                                <p>$ 60</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="dark__button">
+                <a href="#all">Barcha kurslar</a>
+            </div>
+
+            <section id="teacher">
+                <div class="team">
+                    <div class="container">
+                        <div class="team__title ">
+                            Bizning jamoa
+                        </div>
+                        <div class="team__items">
+                            <div class="team__item">
+                                <img src="./images/mm.jpg" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Salima Yoqubova
+                                </p>
+                                <p class="team__item-subtitle">
+                                    salima11@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/nnn.jpg" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Qudrat Nosirov
+                                </p>
+                                <p class="team__item-subtitle">
+                                    Qudratnosirov@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/mmm.jpg" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Adolat Boirova
+                                </p>
+                                <p class="team__item-subtitle">
+                                    adolatt@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/kkk.jpg" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Sanjar Saidov
+                                </p>
+                                <p class="team__item-subtitle">
+                                    saidov0711@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/Rectangle 70.png" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Zulfiya Rajabova
+                                </p>
+                                <p class="team__item-subtitle">
+                                    rajabova@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/Rectangle 227.png" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Sarvinoz Barnoyeva
+                                </p>
+                                <p class="team__item-subtitle">
+                                    sbarnoyeva@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/ll.jpg" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Ahmadjon Choriyev
+                                </p>
+                                <p class="team__item-subtitle">
+                                    Ahmadjon1@gmail.com
+                                </p>
+                            </div>
+                            <div class="team__item">
+                                <img src="./images/Rectangle 228.png" alt="#" class="team__item-img">
+                                <p class="team__item-title">
+                                    Temurbek Po'latov
+                                </p>
+                                <p class="team__item-subtitle">
+                                    tima23@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="resualt" id="resualt">
+                <div class="container">
+                    <div class="team__title resualt__title ">
+                        Bizning bitiruvchilar talaba bo'lgan <br> Oliy Ta'lim Muassasalari
+                    </div>
+                    <div class="resualt__items">
+                        <div class="resualt__items-top">
+                            <div class="resualt__item">
+                                <img src="./images/image 41.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 42.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 44.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 45.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 46.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 47.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 48.png" alt="">
+                            </div>
+                        </div>
+                        <div class="resualt__items-bottom">
+                            <div class="resualt__item">
+                                <img src="./images/image 43.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 49.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 50.png" alt="">
+                            </div>
+
+                            <div class="resualt__item">
+                                <img src="./images/image 44.png" alt="">
+                            </div>
+                            <div class="resualt__item">
+                                <img src="./images/image 52.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comment" id="comment">
+                <div class="team__title comment__tittle ">
+                    Foydalanuvchilar fikrlari
+                </div>
+                <div class="comment__items">
+                    <div class="comment__title">
+                        Xammaga salom men Fizika kursi sotib olganimdan juda xursandman chunki O'zbekistondagi eng malakali ustozlardan darslani organyabman. Hammaga tafsiya qilaman. Ustozlarimiz bizga ilm berishdan charchamasinlar. Fizika oqituvchisiga kattakon raxmat!!
+                    </div>
+                    <div class="comment__imgs">
+                        <img src="./images/Ellipse 21.png" alt="#" class="comment__img">
+                        <img src="./images/Ellipse 22.png" alt="#" class="comment__img">
+                        <div class="ac">
+                            <img src="./images/Ellipse 18.png" alt="#">
+                        </div>
+                        <img src="./images/Ellipse 19.png" alt="#" class="comment__img">
+                        <img src="./images/Ellipse 20.png" alt="#" class="comment__img">
+                    </div>
+                    <div class="comment__subtitle">
+                        Safia Larson
+                        <p> Designer,California </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact" id="contact">
+                <div class="container">
+                    <div class="contact__text">
+                        <p class="contact__title">
+                            Kurslarimiz sizga <br> ma'qulmi?
+                        </p>
+                        <p class="contact__subtitle">
+                            Hoziroq ro'yhatdan o'ting.
+                        </p>
+                    </div>
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Ismingiz">
+                        <input type="text" placeholder="+998 ">
+                        <a href="https://t.me/muhammadjon_portfolio" class="button">Tizimga kirish</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__left">
+                        <div class="footer__items">
+                            <div class="footer__item1">
+                                Asosiy
+                            </div>
+                            <div class="footer__item">
+                                Online
+                            </div>
+                            <div class="footer__item">
+                                Blog
+                            </div>
+                            <div class="footer__item">
+                                Yordam
+                            </div>
+                        </div>
+                        <div class="footer__items">
+                            <div class="footer__item1">
+                                Qo'shimcha
+                            </div>
+                            <div class="footer__item">
+                                Bizning jamoa
+                            </div>
+                            <div class="footer__item">
+                                Natijalar
+                            </div>
+                            <div class="footer__item">
+                                Foydalanuvchi
+                            </div>
+                        </div>
+                        <div class="footer__items">
+                            <div class="footer__item1">
+                                Kurslar
+                            </div>
+                            <div class="footer__item">
+                                Aniq fanlar
+                            </div>
+                            <div class="footer__item">
+                                Tabiiy fanlar
+                            </div>
+                            <div class="footer__item">
+                                Gumanitar
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer__right">
+                        <div class="footer__right-items">
+                            <div class=" footer__item1">
+                                Biz bilan aloqa
+                            </div>
+                            <div class="footer__right-title">
+                                <div class="footer__right-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                info@e-edu.uz
+                            </div>
+                            <div class="footer__right-title">
+                                <div class="footer__right-icon">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </div>
+                                @e-edu.rasmiykanal
+                            </div>
+                            <div class="footer__right-title">
+                                <div class="footer__right-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                (+998 91) 199 93 39
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copuright">
+                Copyright © 2022-2028, <span>Mustaqimov</span> Muhammadjon <span>tomonidan ishlab chiqilgan.</span>
+
+            </div>
+            <script src="app.js"></script>
+        </div>
+
+    </div>
+</body>
+
+</html>
